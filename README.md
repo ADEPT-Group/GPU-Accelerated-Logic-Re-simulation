@@ -18,22 +18,15 @@ Project objective:- Develop a GPU-accelerated, timing-aware, 4 value (0; 1; x; z
 
 Required achievement:- A speed up in re/simulation tasks as compared to CPU based implementations/softwares.
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+### General Framework
+The figure below shows the general structure of the project and deliverables. The boxes in red contain items that are expected to be submitted from us. As we progress along the project, the following questions should be answered at each step. 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+1. What are the formats and structures of the files (gv, vcd, sdf, vlib, saif) that are given as inputs or expected as outputs?
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+2. What preprocessing result is needed as input for the simulation task? What file type and what content or information should be included in order to carry out the simulation.
 
-### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+3. How can the simulation leverage the GPU features and what should be included in the output files?
 
 
 
