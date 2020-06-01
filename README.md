@@ -28,6 +28,7 @@ The figure below shows the general structure of the project and deliverables. Th
 
 3. How can the simulation leverage the GPU features and what should be included in the output files?
 
+https://github.com/ADEPT-Group/GPU-Accelerated-Logic-Re-simulation/blob/master/generalframework.png
 
 ### Files and file formats
 
