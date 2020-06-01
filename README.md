@@ -29,5 +29,15 @@ The figure below shows the general structure of the project and deliverables. Th
 3. How can the simulation leverage the GPU features and what should be included in the output files?
 
 
-### General Framework
+### Files and file formats
+
+• .gv file:- A gate level netlist description of the design
+
+• .sdf file:- describes the delays of each gate in the design
+
+• .vlib file:- A standard cell library which describes the behavior of each standard cell gate in the design
+
+• .vcd file:- Contains waveforms of the primary and pseudo-primary inputs of the design for the duration of the testbench. This file is both an input and expected output of our simulator.
+
+• .saif file:- Contains the time nets were of value 0, 1, x, or z (T0, T1, TX, TZ) for all nets in the design for the duration of the specified timestamps given for the testbench.
 
