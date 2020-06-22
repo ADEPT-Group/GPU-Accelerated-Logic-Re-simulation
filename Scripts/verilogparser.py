@@ -3,9 +3,6 @@ import sys
 
 from typing import Dict, List, Tuple, Optional, Union
 
-# http://www.verilog.com/VerilogBNF.html
-# http://www.externsoft.ch/download/verilog.html
-
 verilog_netlist_grammar = r"""
     start: description*
     
